@@ -20,7 +20,7 @@ const dispatch = useDispatch()
         className={css.btn}
         type="button"
         onClick={() => {
-         dispatch(deleteContact({id:props.contact.id}))
+         dispatch(deleteContact(props.contact.id))
         }}
       >
         Delete
